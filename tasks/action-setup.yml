@@ -12,7 +12,7 @@
 
 - include: pip.yml
 - when: setup_deployer == True
-  - include: deployer-user.yml
+  include: deployer-user.yml
 - include: asdf.yml
 
 
