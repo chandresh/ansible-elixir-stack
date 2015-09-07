@@ -11,7 +11,8 @@
 
 
 - include: pip.yml
-- include: deployer-user.yml
+- when: setup_deployer == True
+  - include: deployer-user.yml
 - include: asdf.yml
 
 
