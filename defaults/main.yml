@@ -13,7 +13,7 @@ build_frontend: True
 frontend_dir: ""
 frontend_build_command: "$(npm bin)/brunch build --production"
 post_frontend_build: "mix phoenix.digest"
-
+setup_deployer: False
 deployer: deployer
 
 domains: []
